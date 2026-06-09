@@ -8,6 +8,13 @@ parado = sinal estável; alguém se movendo = sinal instável.
 > Isto é um **sensor de barreira** ("passou alguém"), **não** um radar que vê pose
 > ou localiza pessoas. Para isso é preciso CSI, que WiFi comum não expõe.
 
+## Demonstração
+
+Detector rodando no terminal — calibração, monitoramento ao vivo e resumo final
+com a contagem de amostras de movimento:
+
+![Detector em funcionamento](assets/demo.png)
+
 ## Como funciona
 
 Toda vez que o PC recebe um pacote do roteador, o sistema registra a potência do
